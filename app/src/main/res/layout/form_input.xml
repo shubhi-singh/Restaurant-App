@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/restaurant_search_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Enter Search String"/>
+
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/location_search_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Location(Optional)"
+            android:gravity="start"/>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+         <ProgressBar
+             android:id="@+id/locationLoadProgress"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+         <Button
+             android:id="@+id/addLocationFilter"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Add Filter"/>
+     </FrameLayout>
+ </LinearLayout>
+    <com.coolio1.android.restaurant_app.MultiSelectionSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiSelectionSpinner">
+    </com.coolio1.android.restaurant_app.MultiSelectionSpinner>
+
+
+</LinearLayout>

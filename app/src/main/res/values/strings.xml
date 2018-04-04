@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Restaurant App</string>
+    <string name="my_api_key">c750173e8cf7e5fdc2c331cf897ee8c3</string>
+    <string name="error_msg">Sorry! Couldn\'t fetch Restaurant.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg_no_internet">Not connected to internet</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="enter_restaurant_query">Enter Restaurant Query</string>
+    <string name="enter_locattion">Enter Locattion</string>
+    <string name="error_retrieving_city">Could not find city! Please Try Again!</string>
+</resources>

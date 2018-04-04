@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_margin"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin"
+        android:paddingTop="@dimen/activity_margin_half">
+
+        <TextView
+            android:id="@+id/restaurant_name_tv"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin_content"
+            android:layout_marginStart="@dimen/activity_margin_content"
+            android:layout_marginTop="@dimen/activity_margin_quarter"
+            android:maxLines="1"
+            tools:text="Movie Title"/>
+
+        <TextView
+            android:id="@+id/restaurant_address_tv"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin_content"
+            android:layout_marginStart="@dimen/activity_margin_content"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:ellipsize="end"
+            android:maxLines="2" />
+
+        <TextView
+            android:id="@+id/restaurant_link_tv"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin_content"
+            android:layout_marginStart="@dimen/activity_margin_content"
+            android:alpha="0.38"
+            android:autoLink="web"
+            android:gravity="start"
+            android:maxLines="1"
+            android:textStyle="bold"
+            tools:text="2009 | EN" />
+
+    </LinearLayout>
+
+</FrameLayout>
